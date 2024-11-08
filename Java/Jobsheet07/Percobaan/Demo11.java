@@ -24,8 +24,12 @@ public class Demo11 {
         smartphone1.setKapasitasBaterai(3500); 
         smartphone2.setTahunProduksi(2024); // Memanggil setter yang benar
 
-        // Menampilkan informasi setelah modifikasi
+        // Menampilkan informasi smartphone1 setelah modifikasi
         System.out.println("Informasi Smartphone setelah modifikasi:");
         System.out.println(smartphone1.getInfo());
+
+        // Menampilkan informasi smartphone2 untuk memastikan tahun produksi telah dimodifikasi
+        System.out.println("Informasi Smartphone 2 setelah modifikasi tahun produksi:");
+        System.out.println(smartphone2.getInfo());
     }
 }
